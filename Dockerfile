@@ -17,4 +17,4 @@ RUN cargo build \
 
 ENTRYPOINT [ "/docker-entrypoint.sh" ]
 
-CMD [ "cargo", "watch", "-x", "check", "-x", "test" ]
+CMD [ "cargo", "watch", "-x", "check", "-x", "test", "-x", "run" ]
